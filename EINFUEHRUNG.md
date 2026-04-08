@@ -1,6 +1,6 @@
-# THW Workshop - Einführung für Schüler
+# THW Workshop - Einführung für Schülerinnen
 
-## 🎯 Workshop-Ablauf (ca. 10-15 Minuten Einführung)
+## 🎯 Ablauf (ca. 10-15 Minuten Einführung)
 
 ### 1. Begrüßung und Motivation (3 Minuten)
 - **Vorstellung:** Wer bin ich, warum machen wir das?
@@ -29,7 +29,7 @@ src/app/
 ```
 
 ### 5. Entwicklungsumgebung (2 Minuten)
-**Zeige den Schülern:**
+**Zeige den Schülerinnenn:**
 - **Code-Editor:** Wo sie arbeiten werden
 - **Browser:** Wo sie das Ergebnis sehen
 - **F12-Tools:** "Hier könnt ihr Fehler finden"
@@ -71,7 +71,7 @@ src/app/
 ### Was funktioniert gut:
 - **"Learning by Doing":** Sofort mit Aufgabe 1 starten, nicht zu viel Theorie
 - **Erfolgserlebnisse:** Erste Aufgabe ist bewusst einfach
-- **Peer-Learning:** Schüler helfen sich gegenseitig
+- **Peer-Learning:** Schülerinnen helfen sich gegenseitig
 - **Realitätsbezug:** "Das ist eine echte Anwendung für echte Helfer"
 
 ### Was vermeiden:
@@ -82,9 +82,9 @@ src/app/
 
 ### Notfall-Tipps:
 - **Technische Probleme:** Habe einen funktionierenden Laptop als Backup
-- **Langsame Schüler:** Paararbeit verstärken, schnelle helfen langsamen
-- **Zu schnelle Schüler:** Bonus-Aufgaben bereithalten
-- **Frustrierte Schüler:** Individuell helfen, Mut machen
+- **Langsamere Schülerinnen:** Paararbeit verstärken, Schnellere helfen Langsameren
+- **Zu schnelle Schülerinnen:** Bonus-Aufgaben bereithalten
+- **Frustrierte Schülerinnen:** Individuell helfen, Mut machen
 
 ---
 
