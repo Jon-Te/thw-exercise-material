@@ -92,19 +92,6 @@ submitRequest(): void {
 }
 ```
 
-## Workshop-Tipps
-
-### Zeitplanung (90 Minuten gesamt)
-- **5 min:** Begrüßung und Projektvorstellung
-- **10 min:** Angular Grundlagen erklären
-- **10 min:** Aufgabe 1 (Eingabefelder)
-- **5 min:** Aufgabe 2 (Button)
-- **10 min:** Aufgabe 3 (Liste anzeigen)
-- **15 min:** Aufgabe 4 (Material Toggle)
-- **20 min:** Aufgabe 5 (Anfrage senden)
-- **10 min:** Testen und Bonus-Aufgaben
-- **5 min:** Abschluss und Fragen
-
 ### Häufige Probleme und Lösungen
 
 1. **Fehler: "ngModel is not recognized"**
@@ -153,7 +140,7 @@ deleteRequest(requestId: number): void {
 
 ## Pädagogische Ziele
 
-### Was lernen die Schüler?
+### Was lernen die Schülerinnen?
 - **HTML:** Formulare, Listen, Buttons
 - **TypeScript:** Arrays, Objekte, Methoden, if/else
 - **Angular:** Data Binding, Event Handling, *ngFor
