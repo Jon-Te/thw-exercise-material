@@ -60,30 +60,25 @@ export class App {
     }
   ];
 
-  // Formular-Variablen - Hier sollen die Schüler später Daten binden
+  // Formular-Variablen - Hier sollen die Schülerinnen später Daten binden
   requesterName: string = '';
   email: string = '';
   department: string = '';
   priority: string = '';
 
-  // Schüler-Aufgabe 4: Diese Methode implementieren
+  // Aufgabe 4: Diese Methode implementieren
   toggleMaterial(material: Material): void {
-    // TODO: Hier sollen die Schüler die Logik implementieren um Material
+    // TODO: Hier sollen die Schülerinnen die Logik implementieren um Material
     // zur selectedMaterials Liste hinzuzufügen oder zu entfernen
     // Tipp: Verwende includes() und splice() oder filter()
 
     console.log('Material ausgewählt:', material.name);
-    // Beispiel-Implementierung (soll von Schülern gemacht werden):
-    // if (this.selectedMaterials.includes(material)) {
-    //   this.selectedMaterials = this.selectedMaterials.filter(m => m.id !== material.id);
-    // } else {
-    //   this.selectedMaterials.push(material);
-    // }
+    // Beispiel-Implementierung (soll von Schülerinnen gemacht werden):
   }
 
-  // Schüler-Aufgabe 5: Diese Methode implementieren
+  // Aufgabe 5: Diese Methode implementieren
   submitRequest(): void {
-    // TODO: Hier sollen die Schüler eine neue Anfrage erstellen und zur Liste hinzufügen
+    // TODO: Hier sollen die Schülerinnen eine neue Anfrage erstellen und zur Liste hinzufügen
     // Schritte:
     // 1. Prüfen ob alle Felder ausgefüllt sind
     // 2. Neue MaterialRequest erstellen mit aktuellen Daten
@@ -93,15 +88,9 @@ export class App {
     console.log('Anfrage wird gesendet...');
     console.log('Name:', this.requesterName);
     console.log('Ausgewählte Materialien:', this.selectedMaterials);
-
-    // Beispiel für Validierung (soll von Schülern implementiert werden):
-    // if (!this.requesterName || !this.email || this.selectedMaterials.length === 0) {
-    //   alert('Bitte alle Felder ausfüllen und mindestens ein Material auswählen!');
-    //   return;
-    // }
   }
 
-  // Hilfsmethode für die Schüler
+  // Hilfsmethode für die Schülerinnen
   resetForm(): void {
     this.requesterName = '';
     this.email = '';

@@ -1,15 +1,14 @@
 # THW Materialanforderung - Programmier-Workshop
 
 ## Projektübersicht
-Ihr entwickelt eine Webseite für das THW (Technisches Hilfswerk), mit der Helfer Materialien für Einsätze anfordern können.
+Ihr entwickelt eine Webseite für das THW (Technisches Hilfswerk), mit der Helferinnen und Helfer Materialien für Einsätze anfordern können.
 
-## Aufgaben für die Schüler
+## Aufgaben
 
-### 📋 Aufgabe 1: Eingabefelder hinzufügen (10 Minuten)
+### 📋 Aufgabe 1: Eingabefelder hinzufügen
 **Datei:** `src/app/app.html`
-**Wo:** Nach dem TODO-Kommentar "Schüler-Aufgabe 1"
 
-**Ziel:** Erstelle ein Formular, damit Helfer ihre Daten eingeben können.
+**Ziel:** Erstelle ein Formular, damit Helferinnen und Helfer ihre Daten eingeben können.
 
 **Anforderungen:**
 - Eingabefeld für den Namen des Anfragers (Text)
@@ -41,9 +40,8 @@ Ihr entwickelt eine Webseite für das THW (Technisches Hilfswerk), mit der Helfe
 - Die Variablen `requesterName`, `email`, `department`, `priority` sind bereits in der TypeScript-Datei definiert
 - Verwende die passenden input-Typen (text, email)
 
-### 🔘 Aufgabe 2: Submit-Button hinzufügen (5 Minuten)
+### 🔘 Aufgabe 2: Submit-Button hinzufügen
 **Datei:** `src/app/app.html`
-**Wo:** Nach dem TODO-Kommentar "Schüler-Aufgabe 2"
 
 **Ziel:** Füge einen Button hinzu, mit dem die Anfrage gesendet werden kann.
 
@@ -62,15 +60,14 @@ Ihr entwickelt eine Webseite für das THW (Technisches Hilfswerk), mit der Helfe
 - Die CSS-Klasse `submit-btn` ist bereits definiert
 - Die Methode `submitRequest()` existiert bereits
 
-### 📊 Aufgabe 3: Anfragen-Liste anzeigen (10 Minuten)
+### 📊 Aufgabe 3: Anfragen-Liste anzeigen
 **Datei:** `src/app/app.html`
-**Wo:** Nach dem TODO-Kommentar "Schüler-Aufgabe 3"
 
 **Ziel:** Zeige alle gesendeten Anfragen in einer Liste an.
 
 **Anforderungen:**
 - Durchlaufe das Array `submittedRequests` und zeige für jede Anfrage:
-  - Name des Anfragers als Überschrift
+  - Name des Anfragenden als Überschrift
   - Abteilung
   - Anzahl der ausgewählten Materialien
   - Status der Anfrage
@@ -90,7 +87,7 @@ Ihr entwickelt eine Webseite für das THW (Technisches Hilfswerk), mit der Helfe
 - Das Array heißt `submittedRequests`
 - Für die Materialien-Anzahl verwende `materials.length`
 
-### ⚡ Aufgabe 4: Material auswählen/abwählen (15 Minuten)
+### ⚡ Aufgabe 4: Material auswählen/abwählen
 **Datei:** `src/app/app.ts`
 **Wo:** In der Methode `toggleMaterial()`
 
